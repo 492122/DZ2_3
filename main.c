@@ -42,8 +42,7 @@ int main(void){
 
 
     fclose(s);
-    system("dot -Tpng -O platon.dot");
-    system("xdg-open platon.dot.png");
+    system("dot –Tpng table.dot –O table.png");
     free(A);
 
     return 0;
